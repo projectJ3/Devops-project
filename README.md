@@ -32,14 +32,22 @@ AWS SSM Agent
 9. Deploy Bastion Host EC2 instance in the Public Subnet with EIP associated.
 10. Create S3 Bucket to store application specific configuration.
 11. Create Launch Configuration with below configuration.
-    
-    i. Golden AMI
-   ii. Instance Type – t2.micro
-  iii. Userdata to pull the code from Bitbucket Repository to document root folder of webserver and start the httpd service.
-   iv. IAM Role granting access to Session Manager and to S3 bucket created in the previous step to pull the configuration. (Do not grant S3 Full Access)
-    v. Security Group allowing port 22 from Bastion Host and Port 80 from Public.
-   vi. Key Pair
+         i. Golden AMI
+   
+        ii. Instance Type – t2.micro
+  
+        iii. Userdata to pull the code from Bitbucket Repository to document root folder of webserver and start the httpd service.
+  
+        iv. IAM Role granting access to Session Manager and to S3 bucket created in the previous step to pull the configuration. (Do not grant S3 Full Access)
+   
+        v. Security Group allowing port 22 from Bastion Host and Port 80 from Public.
+   
+        vi. Key Pair
+
 12. Create Auto Scaling Group with Min: 2 Max: 4 with two Private Subnets associated to 1a and 1b zones.
+
 13. Create Target Group and associate it with ASG.
+
 14. Create Network Load balancer in Public Subnet and add Target Group as target.
+
 15. Update route53 hosted zone with CNAME record routing the traffic to NLB.
