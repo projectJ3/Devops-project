@@ -1,18 +1,18 @@
 ![image](https://github.com/user-attachments/assets/9e5fa669-b4ae-4041-9e8d-2e98b4d3597c)
 
-#Deploy Scalable VPC Architecture on AWS Cloud
+# Deploy Scalable VPC Architecture on AWS Cloud
 
-##Aim of the Project
+## Aim of the Project
 Deploy a Modular and Scalable Virtual Network Architecture with Amazon VPC.
 
-##Pre-Requisites
+## Pre-Requisites
 
 You must be having an AWS account to create infrastructure resources on AWS cloud.
 Source Code
 Pre-Deployment
 Customize the application dependencies mentioned below on AWS EC2 instance and create the Golden AMI.
 
-##Requirements:
+## Requirements:
   
   i. AWS CLI
  
@@ -26,7 +26,7 @@ iii. Install Git
 
  vi. AWS SSM Agent
 
-##VPC Deployment
+## VPC Deployment
 
 1. Build VPC network ( 192.168.0.0/16 ) for Bastion Host deployment as per the architecture shown above.
 2. Build VPC network ( 172.32.0.0/16 ) for deploying Highly Available and Auto Scalable application servers as per the architecture shown above.
@@ -39,6 +39,7 @@ iii. Install Git
 9. Deploy Bastion Host EC2 instance in the Public Subnet with EIP associated.
 10. Create S3 Bucket to store application specific configuration.
 11. Create Launch Configuration with below configuration.
+        
          i. Golden AMI
    
         ii. Instance Type – t2.micro
