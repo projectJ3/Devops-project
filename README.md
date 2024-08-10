@@ -4,12 +4,14 @@
 Deploy a Modular and Scalable Virtual Network Architecture with Amazon VPC.
 
 ##Pre-Requisites
+
 You must be having an AWS account to create infrastructure resources on AWS cloud.
 Source Code
 Pre-Deployment
 Customize the application dependencies mentioned below on AWS EC2 instance and create the Golden AMI.
 
 ##Requirements:
+
 AWS CLI
 Install Apache Web Server
 Install Git
