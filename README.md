@@ -13,13 +13,13 @@ Pre-Deployment
 Customize the application dependencies mentioned below on AWS EC2 instance and create the Golden AMI.
 
 ##Requirements:
-
-AWS CLI
-Install Apache Web Server
-Install Git
-Cloudwatch Agent
-Push custom memory metrics to Cloudwatch.
-AWS SSM Agent
+  
+  i. AWS CLI
+ ii. Install Apache Web Server
+iii. Install Git
+ iv. Cloudwatch Agent
+  v. Push custom memory metrics to Cloudwatch.
+ vi. AWS SSM Agent
 
 ##VPC Deployment
 
