@@ -15,10 +15,15 @@ Customize the application dependencies mentioned below on AWS EC2 instance and c
 ##Requirements:
   
   i. AWS CLI
- ii. Install Apache Web Server
+ 
+ii. Install Apache Web Server
+
 iii. Install Git
+
  iv. Cloudwatch Agent
+
   v. Push custom memory metrics to Cloudwatch.
+
  vi. AWS SSM Agent
 
 ##VPC Deployment
