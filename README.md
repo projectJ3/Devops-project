@@ -32,6 +32,7 @@ AWS SSM Agent
 9. Deploy Bastion Host EC2 instance in the Public Subnet with EIP associated.
 10. Create S3 Bucket to store application specific configuration.
 11. Create Launch Configuration with below configuration.
+    
     i. Golden AMI
    ii. Instance Type – t2.micro
   iii. Userdata to pull the code from Bitbucket Repository to document root folder of webserver and start the httpd service.
