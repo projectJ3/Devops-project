@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/9e5fa669-b4ae-4041-9e8d-2e98b4d3597c)
+
 #Deploy Scalable VPC Architecture on AWS Cloud
 
 ##Aim of the Project
